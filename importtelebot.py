@@ -2,7 +2,7 @@ import telebot
 import speech_recognition as sr
 import soundfile as sf
 
-token="6034380785:AAG4BkPrnhKWlPw-e8BbBgaM9wy0zUvJ1EU"
+token="<my token>"
 bot = telebot.TeleBot(token)
 r=sr.Recognizer()
 language='ru_RU'
